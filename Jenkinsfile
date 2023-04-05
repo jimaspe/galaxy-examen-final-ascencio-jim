@@ -33,7 +33,7 @@ pipeline {
                             -Dsonar.projectKey=examenMaven \
                             -Dsonar.projectName=examenMaven \
                             -Dsonar.sources=src/main/java \
-                            -Dsonar.java.binaries=target/classes \
+                            -Dsonar.java.binaries=target \
                             -Dsonar.tests=src/test/java"
                         }
                     }
