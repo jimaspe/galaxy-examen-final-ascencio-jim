@@ -19,7 +19,7 @@ pipeline {
 
                     post{
                         success {
-                            archiveArtifacts artifacts: 'target/*.jar', fingerprint: true, onlyIfSuccessful: true
+                            archiveArtifacts artifacts: 'target/labmaven-*.jar', fingerprint: true, onlyIfSuccessful: true
                         }
                     }
 
