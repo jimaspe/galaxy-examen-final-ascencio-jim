@@ -14,6 +14,7 @@ pipeline {
                       branch: 'main'
 
                     sh 'mvn -B verify'
+					sh 'ls -l target/'
                     }
 
                     post{
