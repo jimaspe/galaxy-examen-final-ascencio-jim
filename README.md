@@ -1,2 +1,5 @@
-# galaxy-examen-final-ascencio-jim
-repo examen CI/CD
+
+
+```
+curl http://localhost:8080/customers
+```
