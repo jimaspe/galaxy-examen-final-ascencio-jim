@@ -35,8 +35,8 @@ pipeline {
                     def scannerHome = tool 'scanner-default'
                     withSonarQubeEnv('sonar-server') {
                     sh "${scannerHome}/bin/sonar-scanner \
-                                    -Dsonar.projectKey=examenMaven \
-                                    -Dsonar.projectName=examenMaven \
+                                    -Dsonar.projectKey=examenmaven \
+                                    -Dsonar.projectName=examenmaven \
                                     -Dsonar.sources=src/main \
                                     -Dsonar.tests=src/test \
                                     -Dsonar.java.binaries=target/classes"
